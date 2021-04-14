@@ -8,7 +8,7 @@ const Joblist = () => {
   const [data, setData] = useState([]);
   const getJobList = async () => {
     try {
-      let url = `http://localhost:5002/jobs`;
+      let url = `https://my-json-server.typicode.com/Hue203/JSON/jobs`;
       const respone = await fetch(url);
       const data = await respone.json();
       setData(data);

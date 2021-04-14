@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 const Homepage = () => {
   let history = useHistory();
   const getJobs = async () => {
-    let url = `http://localhost:5002`;
+    let url = `https://my-json-server.typicode.com/Hue203/JSON`;
     const respone = await fetch(url);
     const data = await respone.json();
     console.log(data);

@@ -12,7 +12,7 @@ const Jobdetail = () => {
 
   const getJobDetail = async () => {
     try {
-      let url = `http://localhost:5002/jobs/${id}`;
+      let url = `https://my-json-server.typicode.com/Hue203/JSON/jobs/${id}`;
       const respone = await fetch(url);
       const data = await respone.json();
       setJobDetail(data);
