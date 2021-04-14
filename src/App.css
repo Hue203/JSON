@@ -1,0 +1,27 @@
+.row {
+  /* border: 1px solid orange; */
+  margin: 30px;
+
+  background-color: blanchedalmond;
+}
+.login-form {
+  border: 1px solid black;
+  margin: 30px;
+}
+.title-joblist {
+  text-align: center;
+  padding: auto;
+}
+.tag-joblist {
+  width: 100px;
+}
+.container {
+  border: 3px solid wheat;
+  padding: 10px;
+}
+.navbar {
+  background-color: thistle;
+}
+.navform {
+  height: 200%;
+}
